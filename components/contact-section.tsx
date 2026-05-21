@@ -64,20 +64,70 @@ export function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault()
+  //   setIsSubmitting(true)
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500))
+  //   // Simulate form submission
+  //   await new Promise(resolve => setTimeout(resolve, 1500))
     
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    setFormState({ name: "", email: "", subject: "", message: "" })
+  //   setIsSubmitting(false)
+  //   setIsSubmitted(true)
+  //   setFormState({ name: "", email: "", subject: "", message: "" })
     
-    // Reset success message after 5 seconds
-    setTimeout(() => setIsSubmitted(false), 5000)
+  //   // Reset success message after 5 seconds
+  //   setTimeout(() => setIsSubmitted(false), 5000)
+  // }
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+  setIsSubmitting(true)
+
+  try {
+    const response = await fetch(
+      "https://formspree.io/f/mpqndlkn",
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formState.name,
+          email: formState.email,
+          subject: formState.subject,
+          message: formState.message,
+        }),
+      }
+    )
+
+    const data = await response.json()
+
+    if (response.ok) {
+      setIsSubmitted(true)
+
+      setFormState({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      })
+
+      setTimeout(() => setIsSubmitted(false), 5000)
+    } else {
+      console.error(data)
+      alert("Failed to send message")
+    }
+  } catch (error) {
+    console.error(error)
+    alert("Something went wrong")
   }
+
+  setIsSubmitting(false)
+}
+
+///////////////////////// OLD handleSubmit function for reference (simulated submission) ///////////////////////////
+
+
 
   return (
     <section id="contact" className="relative py-24 overflow-hidden">
