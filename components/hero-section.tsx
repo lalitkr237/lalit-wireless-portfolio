@@ -9,7 +9,7 @@ const buttons = [
   { label: "Explore Research", href: "#projects", primary: true },
   { label: "View Projects", href: "#projects", primary: false },
   { label: "Publications", href: "#publications", primary: false },
-  { label: "Download CV", href: "/cv.pdf", primary: false },
+  { label: "Download CV", href: "https://drive.google.com/drive/folders/1g4Of8DZfu5lGgegFFHUVyvuAd_GiO8rF?usp=drive_link", primary: false },
   { label: "Contact Me", href: "#contact", primary: false },
 ]
 
@@ -113,7 +113,7 @@ export function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          className="absolute bottom-0.0005 md:bottom-0.0001 left-1/2 -translate-x-1/2 z-0"
         >
           <div className="flex flex-col items-center gap-2 text-muted-foreground">
             <span className="text-xs uppercase tracking-widest">Scroll to Explore</span>

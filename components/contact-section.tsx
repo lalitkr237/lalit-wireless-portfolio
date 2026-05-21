@@ -271,7 +271,7 @@ export function ContactSection() {
                     <div>
                       <h4 className="text-sm font-medium text-foreground">Email</h4>
                       <a href="mailto:lalit_2411EE33@iitp.ac.in" className="text-sm text-primary hover:underline">
-                        lalit@iitp.ac.in
+                        lalit_2411EE33@iitp.ac.in
                       </a>
                     </div>
                   </div>

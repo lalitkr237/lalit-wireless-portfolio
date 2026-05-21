@@ -28,9 +28,9 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-sm font-bold text-primary-foreground">LK</span>
+              <span className="text-sm font-bold text-primary-foreground">LKB</span>
             </div>
-            <span className="hidden sm:block font-semibold text-foreground">Lalit Kumar</span>
+            <span className="hidden sm:block font-semibold text-foreground">Lalit Kumar Bharti</span>
           </Link>
 
           {/* Desktop Navigation */}

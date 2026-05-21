@@ -8,14 +8,14 @@ const skills = [
   { 
     name: "MATLAB", 
     category: "Tools", 
-    level: 95,
+    level: 75,
     icon: "M",
     description: "3GPP-compliant simulations, signal processing algorithms"
   },
   { 
     name: "Python", 
     category: "Tools", 
-    level: 85,
+    level: 65,
     icon: "Py",
     description: "Deep learning, data analysis, automation"
   },
@@ -29,77 +29,77 @@ const skills = [
   { 
     name: "5G NR", 
     category: "Wireless", 
-    level: 95,
+    level: 75,
     icon: "5G",
     description: "3GPP Release 15/16, uplink/downlink optimization"
   },
   { 
     name: "OFDM", 
     category: "Wireless", 
-    level: 90,
+    level: 75,
     icon: "OF",
     description: "Subcarrier allocation, PAPR reduction, equalization"
   },
   { 
     name: "Massive MIMO", 
     category: "Wireless", 
-    level: 92,
+    level: 75,
     icon: "MM",
     description: "Large-scale antenna systems, spatial multiplexing"
   },
   { 
     name: "Beamforming", 
     category: "Wireless", 
-    level: 90,
+    level: 80,
     icon: "BF",
     description: "Digital/analog beamforming, beam management"
   },
   { 
     name: "MU-MIMO", 
     category: "Wireless", 
-    level: 93,
+    level: 70,
     icon: "MU",
     description: "Multi-user detection, interference management"
   },
   { 
     name: "SRS-based CSI", 
     category: "Wireless", 
-    level: 95,
+    level: 75,
     icon: "SR",
     description: "Channel estimation, Doppler-adaptive reuse"
   },
   { 
     name: "Deep Learning", 
     category: "AI/ML", 
-    level: 85,
+    level: 65,
     icon: "DL",
     description: "CNN, RNN for channel prediction and estimation"
   },
   { 
     name: "Signal Processing", 
     category: "Core", 
-    level: 92,
+    level: 62,
     icon: "SP",
     description: "Digital filters, spectral analysis, modulation"
   },
   { 
     name: "3GPP Standards", 
     category: "Standards", 
-    level: 88,
+    level: 68,
     icon: "3G",
     description: "Specification compliance, protocol implementation"
   },
   { 
     name: "TDD Systems", 
     category: "Wireless", 
-    level: 90,
+    level: 70,
     icon: "TD",
     description: "Time-division duplexing, frame structure"
   },
   { 
     name: "Precoding", 
     category: "Wireless", 
-    level: 92,
+    level: 72,
     icon: "PC",
     description: "ZF, RZF, BD, JSDM precoding techniques"
   },
