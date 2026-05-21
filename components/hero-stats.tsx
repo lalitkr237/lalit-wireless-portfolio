@@ -58,11 +58,11 @@ export function HeroStats() {
       transition={{ delay: 1.5 }}
       className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8 mt-12 glass-card rounded-xl p-6"
     >
-      <StatCounter end={3} suffix="+" label="IEEE Publications" delay={1600} />
-      <StatCounter end={5} suffix="+" label="Research Projects" delay={1800} />
+      <StatCounter end={1} suffix="+" label="IEEE Publications" delay={1600} />
+      <StatCounter end={3} suffix="+" label="Research Projects" delay={1800} />
       <StatCounter end={10} suffix="+" label="MATLAB Simulations" delay={2000} />
-      <StatCounter end={15} suffix="+" label="Wireless Technologies" delay={2200} />
-      <StatCounter end={20} suffix="+" label="Technical Skills" delay={2400} />
+      <StatCounter end={5} suffix="+" label="Wireless Technologies" delay={2200} />
+      <StatCounter end={5} suffix="+" label="Technical Skills" delay={2400} />
     </motion.div>
   )
 }

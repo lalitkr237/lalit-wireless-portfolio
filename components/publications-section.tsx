@@ -7,12 +7,12 @@ import { useRef } from "react"
 const publications = [
   {
     title: "SRS-Aided Channel Estimation and Doppler-Adaptive CSI Reuse for 5G NR MU-MIMO: A Slot-Level Performance Evaluation",
-    venue: "IEEE National Conference on Communications (NCC) 2026",
-    authors: ["Lalit Kumar Bharti", "Co-Author 1", "Co-Author 2"],
+    venue: "IEEE 32nd National Conference on Communications (NCC) 2026",
+    authors: ["Lalit Kumar Bharti", "Adrash Ravi", " Krishnan Venkataraghvan"," and Preetam Kumar "],
     collaboration: "IIT Patna + Rakuten Mobile",
     year: "2026",
-    doi: "#",
-    abstract: "This paper presents a comprehensive slot-level performance evaluation framework for SRS-aided channel estimation in 5G NR MU-MIMO systems. We propose a Doppler-adaptive CSI reuse strategy that significantly improves throughput while maintaining BLER targets under various mobility conditions.",
+    doi: "10.1109/NCC68160.2026.11479061",
+    abstract: "Accurate channel knowledge is essential for enabling efficient multi-user multi-input multi-output (MU-MIMO) transmission in fifth-generation (5G) new radio (NR) systems. Channel state information (CSI) in 5G NR time-division duplexing (TDD) systems is calculated through uplink (UL) sounding reference signals (SRS), using channel reciprocity for downlink (DL) precoding. In the case of massive MU-MIMO, accurate CSI at the transmitter is needed for beamforming or precoding. However, under high mobility, the channel varies rapidly, causing UL-acquired CSI to become outdated within a few slots. Increasing the SRS transmission rate mitigates CSI ageing but significantly raises UL overhead and computational load at the gNodeB (gNB). This paper proposes a Doppler-aware, slotwise CSI acquisition and precoding framework that dynamically adapts CSI updates using an adaptive reuse mechanism. The framework selects whether to refresh or reuse the CSI based on the estimated Doppler shift and condition number. System-level simulations have been done in a slot-wise TDD environment. The 3rd generation partnership project (3 GPP) cluster delayed line (CDL) channel has been considered with per slot Doppler fluctuation between 60-185 Hz. The role of channel subspace degrees of freedom (DoFs) in selecting suitable precoders for single-user MIMO (SU-MIMO) and MU-MIMO operation has also been examined. The simulation results demonstrate a 2-fold improvement in the sum-spectral efficiency (SE) as compared to SU-MIMO at high signal-to-noise ratio (SNR). A reduction of 15−20% has been observed in the computational complexity, while maintaining robust block error rate (BLER) performance under varying Doppler values.",
     keywords: ["5G NR", "MU-MIMO", "SRS", "Channel Estimation", "CSI Reuse", "Doppler"],
     citations: 0,
     status: "Published",

@@ -13,15 +13,15 @@ const experiences = [
     description: "Assisting in teaching and lab sessions for core electronics and communication courses.",
     responsibilities: [
       {
-        course: "Wireless Communication Lab",
+        course: "Wireless Communication Lab (EC5201)",
         details: "Guiding students through practical experiments in wireless systems, MATLAB simulations, and antenna measurements.",
       },
       {
-        course: "Analog Electronics Lab",
+        course: "Analog Electronics Lab (EC2101)",
         details: "Supervising circuit design, amplifier experiments, and hands-on electronic measurements.",
       },
       {
-        course: "Electrical Science Lab",
+        course: "Electrical Science Lab (EE1101)",
         details: "Teaching fundamental electrical concepts, circuit analysis, and instrumentation techniques.",
       },
     ],
@@ -35,7 +35,7 @@ const experiences = [
     description: "Gained hands-on experience in railway signaling and telecommunication systems.",
     responsibilities: [
       {
-        course: "Signaling Systems",
+        course: "Signaling Systems ",
         details: "Studied electronic interlocking systems, track circuits, and automated train protection mechanisms.",
       },
       {

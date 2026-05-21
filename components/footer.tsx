@@ -21,7 +21,7 @@ const footerLinks = {
   social: [
     { name: "GitHub", href: "https://github.com/lalitkR237" },
     { name: "LinkedIn", href: "https://linkedin.com/in/lalit-KR-" },
-    { name: "Google Scholar", href: "" },
+    { name: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=8tH6wPkAAAAJ" },
     { name: "ResearchGate", href: "https://www.researchgate.net/profile/Lalit-Kumar-Bharti?ev=hdr_xprf" },
   ],
 }
