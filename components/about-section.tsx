@@ -15,8 +15,8 @@ const timeline = [
   {
     year: "2020 - 2024",
     title: "B.Tech in Electronics and Communication Engineering",
-    institution: "Previous Institution",
-    description: "Foundation in wireless communication and signal processing",
+    institution: "Muzaffarpur Institute of Technology,(GOVT. OF BIHAR)",
+    description: "Foundation in communication and signal processing",
     highlight: false,
   },
 ]

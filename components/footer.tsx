@@ -19,10 +19,10 @@ const footerLinks = {
     { name: "AI/ML Wireless", href: "#projects" },
   ],
   social: [
-    { name: "GitHub", href: "https://github.com/lalitkumarbharti" },
-    { name: "LinkedIn", href: "https://linkedin.com/in/lalitkumarbharti" },
-    { name: "Google Scholar", href: "#" },
-    { name: "ResearchGate", href: "#" },
+    { name: "GitHub", href: "https://github.com/lalitkR237" },
+    { name: "LinkedIn", href: "https://linkedin.com/in/lalit-KR-" },
+    { name: "Google Scholar", href: "" },
+    { name: "ResearchGate", href: "https://www.researchgate.net/profile/Lalit-Kumar-Bharti?ev=hdr_xprf" },
   ],
 }
 
