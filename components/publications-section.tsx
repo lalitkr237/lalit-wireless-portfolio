@@ -58,6 +58,101 @@ const publications = [
   doi={10.1109/NCC68160.2026.11479061}
 }`,
   },
+
+  /* 2nd publication ... */
+{
+title:
+"SRS-Based CSI Quality Assessment and Selection for MU-MIMO Precoding in 5G NR",
+
+venue:
+"IEEE International Conference on Signal Processing and Communications (SPCOM 2026)",
+
+authors: [
+"Lalit Kumar Bharti",
+"Adarsh Ravi",
+"Hamza Bouchebbah",
+"Seshashayi Thalluri",
+"Krishnan Venkataraghvan",
+"and Preetam Kumar",
+],
+
+collaboration: "IIT Patna + Rakuten Mobile",
+
+year: "2026",
+
+ieeeLink: "#",
+
+pdfLink: "#",
+
+doi: "To Be Assigned",
+
+abstract:
+"Stable downlink precoding in time-division duplex (TDD) multi-user multi-input multi-output (MU-MIMO) systems critically depends on the reliability of channel state information (CSI) at the transmitter. In mobile environments, Doppler-induced channel variation, estimation noise, and pilot contamination distort the channel structure, often leading to ill-conditioned matrices and unstable linear precoding. This paper proposes a Doppler-aware CSI reliability framework in which the condition number of sounding reference signal (SRS)-based channel estimates is used as a per-snapshot indicator of spatial robustness. Instead of relying solely on instantaneous CSI, the proposed approach selects the better-conditioned CSI between current and previously estimated channel realizations prior to downlink transmission, thereby improving robustness under mobility. System-level simulations compliant with 5G New Radio specifications are conducted under fixed, increasing, and decreasing Doppler scenarios using clustered delay line (CDL) channel models. Results show consistent gains in throughput and block error rate (BLER), approaching the performance of perfect channel state information at the transmitter (CSIT). Among the considered schemes, regularized zero forcing (RZF) precoding exhibits higher robustness to CSI degradation, while block diagonalization (BD) is more sensitive to Doppler variations. Overall, the proposed method provides a lightweight and standards-compatible solution for improving MU-MIMO precoding reliability in time-varying channels.",
+
+keywords: [
+"5G NR",
+"MU-MIMO",
+"CSI",
+"SRS",
+"Precoding",
+],
+
+citations: 0,
+
+status: "Accepted",
+
+bibtex:
+"Paper accepted at SPCOM 2026. Final BibTeX and DOI will be updated after publication."
+},
+
+
+
+/* 3rd publication ... */
+
+{
+  title:
+    "Failure-Aware Adaptive Velocity Estimation in SSB-based Multi-Target Sensing",
+
+  venue: "IEEE Communications Letters",
+
+  authors: [
+    "Lalit Kumar Bharti",
+    "Sushant Kumar Jha",
+    "Abhinav Anand",
+    "and Preetam Kumar",
+  ],
+
+  collaboration: "IIT Patna",
+
+  year: "2026",
+
+  ieeeLink: "#",
+
+  pdfLink: "#",
+
+  doi: "Under Review",
+
+  abstract:
+    "This manuscript investigates failure-aware adaptive velocity estimation in synchronization signal block (SSB)-based multi-target sensing for 5G NR systems. The proposed framework dynamically adjusts velocity estimation strategies based on sensing failure probabilities, leveraging machine learning to enhance robustness under varying mobility and channel conditions. Simulation results demonstrate improved velocity estimation accuracy and reduced failure rates compared to traditional methods.",
+
+  keywords: [
+    "5G NR",
+    "ISAC",
+    "SSB",
+    "Velocity Estimation",
+    "eigenvalue spread",
+  ],
+
+  citations: 0,
+
+  status: "Under Review",
+
+  bibtex: `Manuscript currently under review.`,
+
+},
+
+
+
 ]
 
 export function PublicationsSection() {
@@ -142,9 +237,17 @@ export function PublicationsSection() {
                 {/* Top */}
                 <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                   <div>
-                    <span className="px-3 py-1 rounded-full text-xs bg-green-500/20 text-green-400 border border-green-500/30">
-                      {pub.status}
-                    </span>
+                    <span
+                          className={`px-3 py-1 rounded-full text-xs border ${
+                           pub.status === "Published"
+                            ? "bg-green-500/20 text-green-400 border-green-500/30"
+                          : pub.status === "Accepted"
+                             ? "bg-blue-500/20 text-blue-400 border-blue-500/30"
+                          : "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
+                         }`}
+                          >
+                       {pub.status}
+                  </span>
                   </div>
 
                   <div className="flex items-center gap-4 text-sm text-muted-foreground">
