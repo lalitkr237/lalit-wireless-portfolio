@@ -6,7 +6,7 @@ import { useRef } from "react"
 
 const timeline = [
   {
-    year: "2024 - Present",
+    year: "2024 - 2026",
     title: "M.Tech in Communication Systems & Signal Processing",
     institution: "Indian Institute of Technology Patna",
     description: "Specializing in 5G NR uplink optimization and MU-MIMO systems",
