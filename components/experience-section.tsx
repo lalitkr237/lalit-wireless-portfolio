@@ -8,20 +8,20 @@ const experiences = [
   {
     title: "Teaching Assistant",
     organization: "Indian Institute of Technology Patna",
-    period: "2024 - Present",
+    period: "2024 - 2026",
     type: "Academic",
     description: "Assisting in teaching and lab sessions for core electronics and communication courses.",
     responsibilities: [
       {
-        course: "Wireless Communication Lab (EC5201)",
+        course: "Wireless Communication Lab (EC5201)--01/2026--05/2026",
         details: "Guiding students through practical experiments in wireless systems, MATLAB simulations, and antenna measurements.",
       },
       {
-        course: "Analog Electronics Lab (EC2101)",
+        course: "Analog Electronics Lab (EC2101)--07/2025--11/2025",
         details: "Supervising circuit design, amplifier experiments, and hands-on electronic measurements.",
       },
       {
-        course: "Electrical Science Lab (EE1101)",
+        course: "Electrical Science Lab (EE1101)--07/2025--11/2025",
         details: "Teaching fundamental electrical concepts, circuit analysis, and instrumentation techniques.",
       },
     ],
@@ -30,7 +30,7 @@ const experiences = [
   {
     title: "Industrial Training",
     organization: "East Central Railway",
-    period: "Summer 2023",
+    period: "Oct 2021 - Nov 2021",
     type: "Industry",
     description: "Gained hands-on experience in railway signaling and telecommunication systems.",
     responsibilities: [
