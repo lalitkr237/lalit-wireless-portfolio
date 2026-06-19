@@ -13,7 +13,7 @@ const timeline = [
     highlight: true,
   },
   {
-    year: "2020 - 2024",
+    year: "2018 - 2022",
     title: "B.Tech in Electronics and Communication Engineering",
     institution: "Muzaffarpur Institute of Technology,(GOVT. OF BIHAR)",
     description: "Foundation in communication and signal processing",
