@@ -13,15 +13,15 @@ const experiences = [
     description: "Assisting in teaching and lab sessions for core electronics and communication courses.",
     responsibilities: [
       {
-        course: "Wireless Communication Lab (EC5201)--01/2026--05/2026",
+        course: "Wireless Communication Lab (EC5201)-- 01/2026 - 05/2026",
         details: "Guiding students through practical experiments in wireless systems, MATLAB simulations, and antenna measurements.",
       },
       {
-        course: "Analog Electronics Lab (EC2101)--07/2025--11/2025",
+        course: "Analog Electronics Lab (EC2101)-- 07/2025 - 11/2025",
         details: "Supervising circuit design, amplifier experiments, and hands-on electronic measurements.",
       },
       {
-        course: "Electrical Science Lab (EE1101)--07/2025--11/2025",
+        course: "Electrical Science Lab (EE1101)-- 07/2025 - 11/2025",
         details: "Teaching fundamental electrical concepts, circuit analysis, and instrumentation techniques.",
       },
     ],
